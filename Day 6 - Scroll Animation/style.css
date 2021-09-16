@@ -1,0 +1,48 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Sun Sep 12 2021
+*******************************************/
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: rgb(22, 45, 66);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    text-shadow: 1px 1px 5px rgb(255, 226, 108);
+    color: rgb(255, 169, 241);
+}
+
+.content {
+    padding: 50px 100px;
+    background-color: rgb(149, 87, 202);
+    box-shadow: 6px 6px 5px rgb(255, 226, 108);
+    border: solid 2px white;
+    color: rgb(255, 237, 214);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+
+.content:nth-child(odd) {
+    transform: translateX(-1000px);
+}
+
+.content:nth-child(even) {
+    transform: translateX(1000px);
+}
+
+.content.show {
+    transform: translateX(0);
+}

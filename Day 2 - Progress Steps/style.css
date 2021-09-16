@@ -1,0 +1,101 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Wed Sep 08 2021
+*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+:root {
+    --orange: #fb0;
+    --gray: #ccc;
+    --white: #fff;
+    --dark-orange: #fa0;
+}
+
+body {
+    background-color: #fff5fc;
+    display: flex;
+    font-family: Muli, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.timeline {
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.timeline::before,
+.line {
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    z-index: -1;
+}
+
+.timeline::before {
+    content: '';
+    background-color: var(--gray);
+    width: 100%;
+}
+
+.line {
+    background-color: var(--orange);
+    width: 0%;
+    transition: 0.6s ease;
+}
+
+.circle {
+    background-color: #fff;
+    color: #999;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid var(--gray) 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s ease;
+}
+
+.circle.active {
+    border-color: var(--orange);
+}
+
+.btn {
+    background-color: var(--gray);
+}
+
+.btn {
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    font-size: inherit;
+    border-radius: 8px;
+    margin: 5px;
+    border: 0;
+}
+
+.btn:active {
+    transform: scale(98%);
+}
+
+.btn:hover {
+    background-color: var(--dark-orange);
+}
+
+.btn:disabled {
+    background-color: var(--gray);
+    cursor: not-allowed;
+}

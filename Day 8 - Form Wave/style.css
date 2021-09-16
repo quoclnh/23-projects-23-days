@@ -1,0 +1,114 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Tue Sep 14 2021
+*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+:root {
+    --dark-blue: rgb(11, 121, 224);
+}
+
+body {
+    font-family: Muli;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+img.background {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(27, 37, 177, 0.37);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 60px;
+    width: 300px;
+}
+
+.form-control {
+    position: relative;
+}
+
+form h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+form label {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    font-size: 0;
+}
+
+form label span {
+    display: inline-block;
+    cursor: text;
+    font-size: 18px;
+    color: rgb(252, 226, 255);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+form input {
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    margin-bottom: 40px;
+}
+
+form input:valid,
+form input:focus {
+    border-bottom-color: rgb(255, 172, 248);
+    outline: none;
+}
+
+form input:valid+label span,
+form input:focus+label span {
+    transform: translateY(-26px);
+}
+
+form button {
+    font-family: inherit;
+    font-weight: 550;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(147, 109, 182);
+    padding: 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgb(125, 66, 180);
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+
+form a {
+    font-weight: bold;
+}

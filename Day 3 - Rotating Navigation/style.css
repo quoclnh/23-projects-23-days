@@ -1,0 +1,123 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Thu Sep 09 2021
+*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+:root {
+    --dark-blue: #16265a;
+    --light-blue: #737c99;
+    --ivory: #fffddc;
+}
+
+body {
+    font-family: Muli, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #fa8b8b;
+}
+
+.circle-container {
+    background-color: var(--light-blue);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: -75px;
+    left: -75px;
+    transition: 0.8s ease;
+    z-index: 1;
+}
+
+.circle-container button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+}
+
+.circle-container button#show {
+    top: 60%;
+    left: 60%;
+}
+
+.circle-container button#hide {
+    top: 61%;
+    left: 21%;
+}
+
+.circle-container.show-nav {
+    transform: rotate(-90deg);
+}
+
+.content {
+    padding: 80px 200px;
+    background-color: var(--ivory);
+    transform-origin: top left;
+    transition: 0.8s ease;
+}
+
+.content.show-nav {
+    transform: rotate(-20deg);
+}
+
+.content.show-nav+nav ul li {
+    transform: translateX(0) !important;
+    transition-delay: 0.1s;
+}
+
+nav {
+    position: fixed;
+    bottom: 20px;
+    left: -15px;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: var(--dark-blue);
+}
+
+small {
+    font-style: oblique;
+    color: var(--light-blue);
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    cursor: pointer;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 40px;
+    transition: 0.4s ease-in;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+li>i {
+    margin-right: 6px;
+}

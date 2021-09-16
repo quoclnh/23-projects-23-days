@@ -1,0 +1,84 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Mon Sep 13 2021
+*******************************************/
+
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.container,
+.container button {
+    font-family: Glory;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(255, 0, 0);
+}
+
+.container h2 {
+    font-size: 54px;
+    margin-bottom: 24px;
+    text-align: center;
+    transition: font-size 1s;
+}
+
+.container:nth-child(1) {
+    background-image: url('https://i0.wp.com/techbooky.com/wp-content/uploads/2020/11/frontend_webdeveloper.jpg'), url('https://ctl.s6img.com/society6/img/suEIWxwPoLD2d_srzPzZfx5zABA/w_1500/leggings/swatch/~artwork,fw_7500,fh_9000,fx_-3000,iw_13500,ih_9000/s6-original-art-uploads/society6/uploads/misc/ec4d65ced569418e93e8097bb03727d3/~~/behr-tsunami-dark-aqua-blue-green-s450-7-solid-color-leggings.jpg');
+    background-blend-mode: multiply;
+}
+
+.container:nth-child(2) {
+    background-image: url('https://cdn.neow.in/news/images/uploaded/2021/05/1621362026_jvzl4pkigk.jpg'), url('https://ctl.s6img.com/society6/img/suEIWxwPoLD2d_srzPzZfx5zABA/w_1500/leggings/swatch/~artwork,fw_7500,fh_9000,fx_-3000,iw_13500,ih_9000/s6-original-art-uploads/society6/uploads/misc/ec4d65ced569418e93e8097bb03727d3/~~/behr-tsunami-dark-aqua-blue-green-s450-7-solid-color-leggings.jpg');
+    background-blend-mode: soft-light;
+}
+
+.container button {
+    padding: 18px 50px;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 3px white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.container.hovered {
+    flex: 2;
+}
+
+.container.unhovered h2 {
+    font-size: 30px;
+}
+
+@media (max-width: 800px) {
+    .container h2 {
+        font-size: 30px;
+    }
+    .container button {
+        font-size: 18px;
+        padding: 14px 45px;
+    }
+}
