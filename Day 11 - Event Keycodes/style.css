@@ -1,0 +1,40 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Fri Sep 17 2021
+*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body {
+    margin: 0;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    font-family: Muli;
+    min-width: 160px;
+    padding: 0 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.name {
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+    margin-bottom: -10px;
+}
+
+.value {
+    font-size: 20px;
+    background-color: rgb(241, 241, 241);
+    padding: 22px;
+    border: solid 1px rgb(155, 155, 155);
+    box-shadow: 1px 1px 5px rgba(131, 131, 131, 0.5);
+}
