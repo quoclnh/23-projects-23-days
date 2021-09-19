@@ -34,6 +34,11 @@ function roll() {
     const time = 30;
     const duration = 150;
 
+    if (choices.length < 2) {
+        alert('You have to enter at least 2 choices before pressing enter.');
+        return;
+    }
+
     const interval = setInterval(function() {
         var newChoice = Math.floor(Math.random() * choices.length);
 
