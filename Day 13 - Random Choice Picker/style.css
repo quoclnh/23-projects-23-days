@@ -1,0 +1,66 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Sun Sep 19 2021
+*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(45deg, #9753d8, #e03be0);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    padding-top: 100px;
+    font-family: Muli;
+    color: white;
+    text-align: center;
+    width: 40%;
+}
+
+.container .prompt {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .prompt p {
+    margin-top: -12px;
+}
+
+.container textarea {
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 26px;
+    font-family: inherit;
+    font-size: 16px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container .choice-container {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.container .choice-container p {
+    font-size: 15px;
+    padding: 6px 20px;
+    background-color: rgb(255, 77, 77);
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    margin: 6px 8px;
+}
+
+.container .choice-container p.highlight {
+    background-color: rgb(94, 204, 103);
+}
