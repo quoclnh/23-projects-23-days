@@ -19,3 +19,4 @@
  | 10 | [Famous Quotes](https://quoclnh.github.io/50-projects-50-days/Day%2010%20-%20Famous%20Quotes/index.html) |
  | 11 | [Event Keycodes](https://quoclnh.github.io/50-projects-50-days/Day%2011%20-%20Event%20Keycodes/index.html) |
  | 12 | [Faq Collapse](https://quoclnh.github.io/50-projects-50-days/Day%2012%20-%20Faq%20Collapse/index.html) |
+ | 13 | [Random Choice Picker](https://quoclnh.github.io/50-projects-50-days/Day%2013%20-%20Random%20Choice%20Picker/index.html) |
