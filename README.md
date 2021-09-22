@@ -22,3 +22,4 @@
  | 13 | [Random Choice Picker](https://quoclnh.github.io/50-projects-50-days/Day%2013%20-%20Random%20Choice%20Picker/index.html) |
  | 14 | [Animated Navigation](https://quoclnh.github.io/50-projects-50-days/Day%2014%20-%20Animated%20Navigation/index.html) |
  | 15 | [Incrementing Counter](https://quoclnh.github.io/50-projects-50-days/Day%2015%20-%20Incrementing%20Counter/index.html) |
+ | 16 | [Drink Water](https://quoclnh.github.io/50-projects-50-days/Day%2016%20-%20Drink%20Water/index.html) |
