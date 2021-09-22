@@ -1,0 +1,122 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Wed Sep 22 2021
+*******************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(180deg, #e0e0ff, #5985ff);
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: cursive;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 40px;
+}
+
+.title h4 {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.title h2,
+.title h4 {
+    background-image: linear-gradient(to top, #37b9ff 0% 0%, #ffffff 0% 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container {
+    float: left;
+    height: 470px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.cup {
+    text-align: center;
+    border: solid 4px #1f39aa;
+    color: #1f39aa;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    overflow: hidden;
+}
+
+.left-container {
+    padding-left: 50px;
+}
+
+.left-container .progress {
+    margin-top: 40px;
+    height: 350px;
+    width: 175px;
+}
+
+.left-container .progress #remaining {
+    background-color: white;
+    height: 100%;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+.left-container .progress #percentage {
+    background-color: #60c7ff;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+.right-container {
+    margin-left: -100px;
+    margin-top: -40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.right-container p {
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(9, 49, 82);
+}
+
+.right-container .picker {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 26px;
+    row-gap: 26px;
+}
+
+.right-container .picker .cup {
+    height: 105px;
+    width: 52.5px;
+    background-color: #60c7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.right-container .picker .cup:not(.active) {
+    background-color: white;
+}
