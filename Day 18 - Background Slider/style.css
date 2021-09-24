@@ -1,0 +1,48 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Fri Sep 24 2021
+*******************************************/
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.background {
+    opacity: 0.6;
+    position: absolute;
+    display: flex;
+    transition: 0.5s ease;
+}
+
+img {
+    width: 1366px;
+    z-index: -1;
+}
+
+.carousel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+
+.carousel .arrow {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 50px;
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+    color: white;
+}
+
+.carousel .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
