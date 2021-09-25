@@ -1,0 +1,88 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Sat Sep 25 2021
+*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:300');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-family: Heebo;
+}
+
+html.light-mode {
+    --background-color: #fff0d9;
+    --text-color: #1f1f1f;
+}
+
+html:not(dark-mode) {
+    --background-color: #1f1f1f;
+    --text-color: #fff0d9;
+}
+
+button {
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--background-color);
+    background-color: var(--text-color);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.time {
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: -10px;
+}
+
+.clock {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.needle {
+    background-color: var(--text-color);
+    width: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+}
+
+.needle.hour {
+    height: 30%;
+}
+
+.needle.minute {
+    height: 45%;
+}
+
+.needle.second {
+    height: 50%;
+    background-color: #ff4625;
+}
+
+.needle.clock-center {
+    border-radius: 50%;
+    border: 3px solid #ff4625;
+    background-color: var(--text-color);
+    height: 5px;
+    width: 5px;
+    transform: translate(-50%, -50%);
+}
