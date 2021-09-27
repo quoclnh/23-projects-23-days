@@ -1,0 +1,49 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Mon Sep 27 2021
+*******************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(177, 216, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.frame {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 20px;
+    border: 5px solid rgb(255, 96, 96);
+}
+
+.frame.active {
+    border: 5px solid rgb(59, 202, 106);
+}
+
+#item {
+    background-image: url('https://source.unsplash.com/random/150x150');
+    opacity: 0.9;
+    height: 140px;
+    width: 140px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.onhold {
+    visibility: hidden;
+}
+
+.hovered {
+    background-color: rgba(239, 243, 255, 0.6);
+    border: dashed 5px rgb(255, 255, 255);
+}
