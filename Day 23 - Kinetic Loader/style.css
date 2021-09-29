@@ -1,0 +1,67 @@
+/******************************************
+*  Author : Huu Quoc   
+*  Created On : Wed Sep 29 2021
+*******************************************/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: bisque;
+}
+
+.center {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: tomato;
+    border-radius: 25%;
+}
+
+.kinetic {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    border: 50px solid transparent;
+    border-bottom-color: #390a77;
+}
+
+#kinetic-1 {
+    animation: rotate1 2s ease-in 0.5s infinite;
+}
+
+#kinetic-2 {
+    transform: rotate(90deg);
+    animation: rotate2 2s ease-out infinite;
+}
+
+@keyframes rotate1 {
+    0%,
+    25% {
+        transform: rotate(0deg);
+    }
+    50%,
+    75% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0%,
+    25% {
+        transform: rotate(90deg);
+    }
+    50%,
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(450deg);
+    }
+}
