@@ -23,3 +23,10 @@
  | 14 | [Animated Navigation](https://quoclnh.github.io/50-projects-50-days/Day%2014%20-%20Animated%20Navigation/index.html) |
  | 15 | [Incrementing Counter](https://quoclnh.github.io/50-projects-50-days/Day%2015%20-%20Incrementing%20Counter/index.html) |
  | 16 | [Drink Water](https://quoclnh.github.io/50-projects-50-days/Day%2016%20-%20Drink%20Water/index.html) |
+ | 17 | [Movie App](https://quoclnh.github.io/50-projects-50-days/Day%2017%20-%20Movie%20App/index.html) |
+ | 18 | [Background Slider](https://quoclnh.github.io/50-projects-50-days/Day%2018%20-%20Background%20Slider/index.html) |
+ | 19 | [Theme Clock](https://quoclnh.github.io/50-projects-50-days/Day%2019%20-%20Theme%20Clock/index.html) |
+ | 20 | [Button Ripple Effect](https://quoclnh.github.io/50-projects-50-days/Day%2020%20-%20Button%20Ripple%20Effect/index.html) |
+ | 21 | [Drag Drop](https://quoclnh.github.io/50-projects-50-days/Day%2021%20-%20Drag%20Drop/index.html) |
+ | 22 | [Drawing App](https://quoclnh.github.io/50-projects-50-days/Day%2022%20-%20Drawing%20App/index.html) |
+ | 23 | [Kinetic Loader](https://quoclnh.github.io/50-projects-50-days/Day%2023%20-%20Kinetic%20Loader/index.html) |
