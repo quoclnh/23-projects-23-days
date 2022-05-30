@@ -1,5 +1,5 @@
-# 50 Projects in 50 Days
- This is the main repository for 50 web projects using HTML, CSS, and Javascript.
+# 23 Projects in 23 Days
+ This is the main repository for 23 web projects using HTML, CSS, and Javascript.
  
  * [Course Link](https://www.udemy.com/course/50-projects-50-days/)
 
